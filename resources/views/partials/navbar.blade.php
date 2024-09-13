@@ -8,6 +8,7 @@
         <div class="navbar-nav">
             <a class="nav-link" href="{{ route('home') }}">Home</a>
             <a class="nav-link" href="{{ route('today') }}">Treni di oggi</a>
+            <a class="nav-link" href="{{ route('agency') }}">Viaggi disponibili</a>
         </div>
       </div>
     </div>

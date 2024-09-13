@@ -17,6 +17,7 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'index'])->name('home');
 Route::get('/treni-di-oggi', [PageController::class, 'today'])->name('today');
+Route::get('/viaggi-disponibili', [PageController::class, 'travels'])->name('agency');
 
 
 
